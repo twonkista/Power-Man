@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="ThisIsTheSideCodeFuckOffWitDatBullshit">
+      <div class="upgrades">
+        <center>
+          <h1>
+            Upgrades:
+          </h1>
+        </center>
+        <button class="buybox inline" onclick="buyHamsters()">Buy Hamsters</button>
+        <div class="inline" id="ham">Hamsters in a wheel: 0</div>
+        <div id="hamCost">cost: .59</div>
+        <br>
+        <button class="buybox inline" onclick="buyHumans()">Human power</button>
+        <div class="inline" id="hum">Human power: 0</div>
+        <div id="humcost">cost: 78.15</div>
+        <br>
+        <button class="buybox inline" onclick="byHydro()">Hydro energy</button>
+        <div class="inline" id="hyd">Hydro energy plants: 0</div>
+        <div id="hydcost">cost: 1008.89</div>
+        <br>
+      </div>
+    </div>
+    <div class="GetBoddiedBitch">
+      <div class="otherstuff">
+        <div class="Intro">
+          <h1>
+            <center>
+              Extra:
+            </center>
+          </h1>
+        </div>
+        <div class="inline" id="pop">Population: 0</div>
+        <div class="inline" id="money">0 USD</div>
+        <br>
+        Land stuffs:
+        <div class="inline" id="totland">Total land: 5 Acres</div>
+        <div class="inline" id="land">Available land: 5 Acres</div>
+        <button class="lnd" onclick="buyLand()">Buy Land</button>
+        <div class="inline" id="lndprice">100USD</div>
+        <div class="inline" id="acresget">For 1 Acre</div>
+        <br>
+        <br>
+        <!--Human statistics:
+        <div class="inline"  id="airQual">Air quality: 10</div>
+        <div class="inline"  id="mora">Morale: 0</div>
+        -->
+        <br>
+        <br>
+        <br>
+        <button class="start" onclick="startBid()">Start Bid</button>
+        <div class="Bids" id="allbids">
+          Bid:
+          <br>
+          ___________________
+          <div class="inline" id="bidSys">highest bid: N/A</div>
+          <div id = "form">
+            <input type="number" id="number" step="0.00000001">
+            <button id="enter" onclick="enterPrice()">Place bid</button>
+          </div>
+          <div class="inline" id="rounds">Rounds out of 6: N/A</div>
+          <button class="close" id="closeSys" onclick="closeBid()">Close bid</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="openMkt" onclick="openMarket()">Stock Market</button>
+        <br>
+        <br>
+        <br>
+        <div class="market" id="market">
+          <div class="low">
+            Low risk investment: 
+            <br>
+            Buy shares: 
+            <input type="number" id="shares">
+            <button class="Lowbuy" id="Lowbuy" onclick="Lowbuy()">Buy</button>
+            <div class="inline" id="LowPrice">Share price: N/A</div>
+            <div class="inline" id="LowResults">Money: N/A</div>
+            <button class="sell" id="sell" onclick="sell()">Sell</button>
+            <button class="close" id="close" onclick="close()">Close</button>
+          </div>
+          <br>
+          <div class="medium">
+            Medium risk investment: 
+            <br>
+            Buy shares: 
+            <input type="number" id="Midshares">
+            <button class="Midbuy" id="Midbuy" onclick="Midbuy()">Buy</button>
+            <div class="inline" id="MidPrice">Share price: N/A</div>
+            <div class="inline" id="MidResults">Money: N/A</div>
+            <button class="Midsell" id="Midsell" onclick="Midsell()">Sell</button>
+            <button class="Midclose" id="Midclose" onclick="Midclose()">Close</button>
+          </div>
+          <br>
+          <div class="high">
+            High risk investment: 
+            <br>
+            Buy shares: 
+            <input type="number" id="Higshares">
+            <button class="Higbuy" id="Higbuy" onclick="Higbuy()">Buy</button>
+            <div class="inline" id="HigPrice">Share price: N/A</div>
+            <div class="inline" id="HigResults">Money: N/A</div>
+            <button class="Higsell" id="Higsell" onclick="Higsell()">Sell</button>
+            <button class="Higclose" id="Higclose" onclick="Higclose()">Close</button>
+          </div>
+          <br>
+          <br>
+          <button class="closeMkt" id="closeMkt" onclick="closeMkt()">Close Market</button>
+        </div>
+      </div>
+    </div>
+    <div class="TheOriginalClickBitchDontGiveAFuck">
+      <center>
+        <div class="texty" style="font-size: 20px" id="var">0 Watts</div>
+        <br>
+        <button class="box" onclick="myfunction()">Click for energy</button>
+        <br>
+        <br>
+        <br>
+      </center>
+    </div>
+    <script src="basicFunc.js"></script>
+    <script src="modes.js"></script>
+    <script src="upgrades.js"></script>
+  </body>
+</html>

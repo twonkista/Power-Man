@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+  float: center;
+}
+.upgrades{
+  background-color: white;
+  width: 25%;
+  height: 100vh;
+  overflow: scroll;
+  float:left;
+}
+.otherstuff{
+  background-color: white;
+  width: 35%;
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+}
+.TheOriginalClickBitchDontGiveAFuck{
+  background-color: white;
+  width: 40%;
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+}
+h1{
+  background: green;
+  font-size: 15px;
+}
+.allbids{
+  display: "hidden";
+}
